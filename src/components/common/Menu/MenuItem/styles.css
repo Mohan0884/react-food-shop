@@ -7,17 +7,27 @@
   flex-direction: column;
   display: flex;
 }
-
+.item:hover{
+  background-color: black;
+  color:white;
+  width:170px;
+  transition-duration: 1s;
+}
 .item img {
   margin-top: -3.5rem;
   height: 130px;
   object-fit: contain;
+  transition:0.6s;
+}
+.item img:hover{
+  height:135px;
 }
 .item-foot_desc {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .item-head_desc p {
   margin: 0;
   margin-bottom: 0.5rem;
@@ -28,6 +38,7 @@
   color: #fff;
   border-radius: 50%;
 }
+
 .item-head_desc {
   text-align: left;
   flex: 1;

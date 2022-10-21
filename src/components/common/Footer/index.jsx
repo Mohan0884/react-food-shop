@@ -6,8 +6,8 @@ const Footer = () => {
   return (
     <footer>
       <p>
-        We're a team of Professional cooks who are excited about their food,
-        amazing skills and expertiness in cooking.
+        Our professional cooks who are excited about their food with their expertiness 
+        in the cooking makes you taste excellent! 
       </p>
       <Logo />
     </footer>

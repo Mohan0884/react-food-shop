@@ -7,12 +7,10 @@ const Logo = () => (
     <div>
       <img src={logo} alt='logo' />
       <span>
-        <b>Taste</b>
+        <b className='foodster'>Foodster</b>
       </span>
     </div>
-    <p>
-      <b>Restaurant & BBQ</b>
-    </p>
+     
   </div>
 );
 

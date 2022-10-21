@@ -5,7 +5,6 @@ import EmptyCart from '../../components/Cart/EmptyCart';
 import Footer from '../../components/common/Footer';
 import Logo from '../../components/common/Logo';
 import Menu from '../../components/common/Menu';
-import MenuItem from '../../components/common/Menu/MenuItem';
 import {
   selectCartItems,
   selectCartItemsCount,
@@ -27,7 +26,7 @@ const Cart = ({ cartCount, cartList, cartTotal }) => {
           <div className='orders-menu'>
             <Menu list={cartList} />
           </div>
-          <h3 className='orders-total'>Your Total ${cartTotal}</h3>
+          <h3 className='orders-total'>Your Total ₹{cartTotal}</h3>
         </div>
       )}
       <Footer />
